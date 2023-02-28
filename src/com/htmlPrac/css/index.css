@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*
+:after add new element after label
+*/
+/*
+clear float's influence
+*/
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
+.header{
+    background: #9bceea;
+}
+.header table{
+    background: #00b4ff;
+    margin: auto;
+}
+.header table .loginbutton {
+    text-align: center;
+}
+.nav li{
+    float: left;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.nav{
+    background: #ff7c2d;
+}
+.body{
+    background: peachpuff;
+}
+
+.body .second-hand ul li{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.footer{
+    background: pink;
+    text-align: center;
+}

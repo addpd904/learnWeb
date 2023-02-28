@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    background: pink;
+}
+div table tr{
+    width: 100px;
+    height: 30px;
+}
+div table tr .login{
+    text-align: center;
+}
